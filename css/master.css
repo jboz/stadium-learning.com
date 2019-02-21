@@ -9,13 +9,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: stretch;
+  font-family: Roboto;
+  color: black;
 }
 
 #content {
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -24,6 +27,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: baseline;
+}
+
+#construction {
+  padding-top: 50px;
+  font-size: 40px;
+  font-variant: all-small-caps;
 }
 
 img {
