@@ -6,53 +6,24 @@ body {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
   font-family: Roboto;
-  color: black;
-}
-
-#content {
   width: 100%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 
-#recto,
-#verso {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-}
-
-#construction {
-  padding-top: 50px;
-  font-size: 40px;
-  font-variant: all-small-caps;
-}
-
-img {
+section {
   width: 100%;
-  max-width: 1000px;
-  height: auto;
-  flex-wrap: wrap;
+  height: 100%;
 }
 
-header {
-  background-color: #136031;
-  width: 100%;
-  height: 4em;
-  position: fixed;
-  top: 0px;
+#presentation {
+  background: #00b5c6;
 }
 
-footer {
-  background-color: #136031;
-  width: 100%;
-  height: 4em;
-  bottom: 0px;
+#team {
+  background-color: #7a6594;
+}
+
+#contact {
+  background: #c8482f;
 }
